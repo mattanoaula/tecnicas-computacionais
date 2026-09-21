@@ -12,6 +12,7 @@ const perguntas = [
             }           
             
         ]
+        proxima: 1
     },
     {
         enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre elaIA. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de tecnologia em sala de aula. Qual atitude você toma?",
@@ -25,6 +26,7 @@ const perguntas = [
                 afirmacao:"afirmacao"
             }
         ]
+        proxima: 1
     },
     {
         enunciado: "Após a elaboração do trabalho, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
@@ -39,6 +41,7 @@ const perguntas = [
             }
             
         ]
+        proxima: 1
     },
     {
         enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
