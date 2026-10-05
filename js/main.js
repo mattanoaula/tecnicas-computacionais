@@ -60,12 +60,14 @@ function mostraResultado() {
 caixaPerguntas.textContent = "Em 2049...";
 textoResultado.textContent = historiaFinal;
 caixaAlternativas.textContent = "";
-caixaResultado.classList.add("mostrar"); botaoJogarNovamente.addEventListener("click", jogaNovamente());
+caixaResultado.classList.add("mostrar"); botaoJogarNovamente.addEventListener("click", jogaNovamente);
 }
 
 function substituiNome(){
 for(const pergunta of perguntas){
-pergunta.enunciado = pergunta.enunciado.replace(/você/g, nome);
-    }
+pergunta.enunciado = pergunta.enunciado.replace(/você/g, nome)
 }
-mostraPergunta();
+}
+mostraPergunta(){
+
+}
